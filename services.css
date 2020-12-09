@@ -1,1 +1,43 @@
-/* un commentaire
+#khalil-services_container{
+    background-image: url("images/fondservices.png");
+
+    width: 100%;
+    min-height: 50vh;
+
+    color: white;
+}
+
+#khalil-services_container h2{
+    
+    border-bottom: 1px solid white;
+    width: 1.8em;
+}
+
+#khalil-h2{
+    padding: 25px;
+}
+
+#khalil-inner_container li{
+    list-style-type: none;
+}
+#khalil-inner_container p{
+    width: 290px;
+}
+
+#khalil-inner_container h3{
+    margin: 9px 0px;
+}
+
+#khalil-inner_container ul{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
