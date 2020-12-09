@@ -1,1 +1,181 @@
-/* un commentaire
+/* un commentaire*/
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    
+}
+.mini-nav{
+    display: flex;
+}
+.nav .main-menu {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 15px;
+    color: black; 
+}
+nav,  .main-menu, li, a{
+    display: inline-block;
+    margin:0 20px;
+    
+}
+ .main-menu {
+    font-weight:bolder ;
+    display: flex;
+    align-items: center;
+  }
+.alone a{
+   text-align: center;
+    margin: 0 87px;
+    border: 3px solid rgb(34, 112, 202);
+    padding: 3px 0px;
+    width: 67px;
+    height: 36px;
+
+}
+
+
+.card-1 {
+   
+    background-image:url(images/portfolio/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+  }
+
+.card-2{
+    background-image:url(images/portfolio/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.card-3{
+    background-image:url(images/portfolio/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.card-4{
+    background-image:url(images/portfolio/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.card-5{
+    background-image:url(images/portfolio/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.card-6{
+    background-image:url(images/portfolio/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+}
+.card-7{
+    background-image:url(images/portfolio/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.card-8{
+    background-image:url(images/portfolio/8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 1rem;
+    height: 16rem;  
+
+}
+.all-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
+  }
+  .cards-portfolio .all-cards .card {
+  padding: 130px;
+   
+  }
+  
+  /* Screen larger than 600px? 2 column */
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr, ); }
+  }
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr, ); }
+  }
+  
+  .cards-portfolio {
+    padding: 20px;
+  }
+  /*============================*/
+  .setup{
+     
+      min-height: 450px;
+      display: flex;
+      border: 1px solid black;
+      background-color:#515F67;
+      color: white;
+
+  }
+.service h2{
+    padding: 28px;
+    font-weight: 500
+
+}
+  .service a {
+      text-decoration: none;
+      border:3px solid rgb(70, 70, 71);
+      width: 85px;
+      height: 34px;
+      text-align: center;
+      color:#33373a;
+  }
+
+  .videos{
+      padding: 40px;
+  }
+
+  .service{
+
+    width: 500px;
+    margin: 0 80px;
+
+  }
+
+
+  /*===============================================*/
+
+.color{
+    background-color:#4bcaff ;
+    color: white;
+    padding: 25px;
+    top: ;
+}
